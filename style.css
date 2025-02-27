@@ -22,13 +22,12 @@
 input{border-style: none;}
 body{background-color: white;}
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
 form{max-width: 90%; 
-margin: 0 auto;}
-img{display: block;}
-input{width: 75%;}
-#submit{width: 45%;}
-}
+margin:0 auto;
+ display:block}
+#bot{ margin-left: 100px;
+        margin-right: 100px;}    
 
 
 
